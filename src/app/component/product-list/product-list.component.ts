@@ -13,6 +13,11 @@ export class ProductListComponent implements OnInit {
   ]
   constructor() { }
 
+  changeStarRating(message: string){
+    console.log(`Message: ${message}`);
+
+  }
+
   ngOnInit() {
   }
 
